@@ -19,6 +19,9 @@
     <Filter Include="头文件\Singleton">
       <UniqueIdentifier>{c4a8f5aa-d23f-4151-8ca3-367e4f476a26}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Builder">
+      <UniqueIdentifier>{a0c8a7c3-31a0-4c5a-8299-5af4232bd422}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -41,6 +44,9 @@
     </ClInclude>
     <ClInclude Include="Singleton.h">
       <Filter>头文件\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>头文件\Builder</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
