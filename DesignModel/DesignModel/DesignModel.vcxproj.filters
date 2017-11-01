@@ -16,6 +16,9 @@
     <Filter Include="头文件\Factory">
       <UniqueIdentifier>{382fd7b6-fed2-44a6-9148-c2dd0584ca79}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Singleton">
+      <UniqueIdentifier>{c4a8f5aa-d23f-4151-8ca3-367e4f476a26}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -32,6 +35,12 @@
     </ClInclude>
     <ClInclude Include="Factory2.h">
       <Filter>头文件\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>头文件\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>头文件\Singleton</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
