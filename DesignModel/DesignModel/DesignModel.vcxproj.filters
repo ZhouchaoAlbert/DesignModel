@@ -30,6 +30,9 @@
     <ClInclude Include="Factory1.h">
       <Filter>头文件\Factory</Filter>
     </ClInclude>
+    <ClInclude Include="Factory2.h">
+      <Filter>头文件\Factory</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
