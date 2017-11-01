@@ -22,6 +22,9 @@
     <Filter Include="头文件\Builder">
       <UniqueIdentifier>{a0c8a7c3-31a0-4c5a-8299-5af4232bd422}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Prototype">
+      <UniqueIdentifier>{45610d48-98c7-4e70-8a8a-026123ae35d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -47,6 +50,9 @@
     </ClInclude>
     <ClInclude Include="Builder.h">
       <Filter>头文件\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype.h">
+      <Filter>头文件\Prototype</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

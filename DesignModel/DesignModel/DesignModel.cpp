@@ -7,7 +7,7 @@
 #include "AbstractFactory.h"
 #include "Singleton.h"
 #include "Builder.h"
-
+#include "Prototype.h"
 int _tmain(int argc, _TCHAR* argv[])
 {
 	Factory1Test();
@@ -15,6 +15,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	AbstractFactoryTest();
 	SingletonTest();
 	BuilderTest();
+	PrototypeTest();
 	system("pause");
 	return 0;
 }
