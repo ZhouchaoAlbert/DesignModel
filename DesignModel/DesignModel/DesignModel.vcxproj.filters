@@ -13,17 +13,29 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="头文件\Factory">
-      <UniqueIdentifier>{382fd7b6-fed2-44a6-9148-c2dd0584ca79}</UniqueIdentifier>
+    <Filter Include="头文件\创建型模式">
+      <UniqueIdentifier>{0e81a75a-2529-45b5-8f0b-8b494e93dade}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\Singleton">
-      <UniqueIdentifier>{c4a8f5aa-d23f-4151-8ca3-367e4f476a26}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="头文件\Builder">
+    <Filter Include="头文件\创建型模式\Builder">
       <UniqueIdentifier>{a0c8a7c3-31a0-4c5a-8299-5af4232bd422}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\Prototype">
+    <Filter Include="头文件\创建型模式\Factory">
+      <UniqueIdentifier>{382fd7b6-fed2-44a6-9148-c2dd0584ca79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\创建型模式\Prototype">
       <UniqueIdentifier>{45610d48-98c7-4e70-8a8a-026123ae35d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\创建型模式\Singleton">
+      <UniqueIdentifier>{c4a8f5aa-d23f-4151-8ca3-367e4f476a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\结构型模式">
+      <UniqueIdentifier>{c8272080-51d9-420e-8d25-55ed2db2cca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\创建型模式\AbstractFactory">
+      <UniqueIdentifier>{81c044f6-9edf-448e-8b2a-a6b38d7360d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\结构型模式\Bridge">
+      <UniqueIdentifier>{2c97f2ca-30c2-4507-82d1-8da4e26d6b8f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -37,22 +49,25 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Factory1.h">
-      <Filter>头文件\Factory</Filter>
+      <Filter>头文件\创建型模式\Factory</Filter>
     </ClInclude>
     <ClInclude Include="Factory2.h">
-      <Filter>头文件\Factory</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractFactory.h">
-      <Filter>头文件\Factory</Filter>
+      <Filter>头文件\创建型模式\Factory</Filter>
     </ClInclude>
     <ClInclude Include="Singleton.h">
-      <Filter>头文件\Singleton</Filter>
+      <Filter>头文件\创建型模式\Singleton</Filter>
     </ClInclude>
     <ClInclude Include="Builder.h">
-      <Filter>头文件\Builder</Filter>
+      <Filter>头文件\创建型模式\Builder</Filter>
     </ClInclude>
     <ClInclude Include="Prototype.h">
-      <Filter>头文件\Prototype</Filter>
+      <Filter>头文件\创建型模式\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>头文件\创建型模式\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge.h">
+      <Filter>头文件\结构型模式\Bridge</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

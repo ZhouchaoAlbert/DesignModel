@@ -8,6 +8,7 @@
 #include "Singleton.h"
 #include "Builder.h"
 #include "Prototype.h"
+#include "Bridge.h"
 int _tmain(int argc, _TCHAR* argv[])
 {
 	Factory1Test();
@@ -16,6 +17,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	SingletonTest();
 	BuilderTest();
 	PrototypeTest();
+	BridgeTest();
 	system("pause");
 	return 0;
 }

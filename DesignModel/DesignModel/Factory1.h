@@ -6,7 +6,6 @@ class CAnimal   //基类
 public:
 	virtual void WhatAnimal() = 0;
 };
-
 class CSheep : public CAnimal
 {
 public:
@@ -15,7 +14,6 @@ public:
 		std::cout << "我是一只可爱的小羊" << std::endl;
 	}
 };
-
 class CMonkey : public CAnimal
 {
 public:
@@ -24,7 +22,6 @@ public:
 		std::cout << "我是一只聪明的猴子" << std::endl;
 	}
 };
-
 class CPiggy : public CAnimal
 {
 public:
