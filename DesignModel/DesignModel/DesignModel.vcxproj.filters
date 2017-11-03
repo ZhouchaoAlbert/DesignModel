@@ -37,6 +37,9 @@
     <Filter Include="头文件\结构型模式\Bridge">
       <UniqueIdentifier>{2c97f2ca-30c2-4507-82d1-8da4e26d6b8f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\结构型模式\Adaptor">
+      <UniqueIdentifier>{ab66bc2d-4a9c-4edb-9f93-db44800ba424}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -68,6 +71,9 @@
     </ClInclude>
     <ClInclude Include="Bridge.h">
       <Filter>头文件\结构型模式\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Adaptor.h">
+      <Filter>头文件\结构型模式\Adaptor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
