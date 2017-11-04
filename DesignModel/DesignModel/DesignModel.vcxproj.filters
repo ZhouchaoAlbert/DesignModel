@@ -46,6 +46,9 @@
     <Filter Include="头文件\结构型模式\Composite">
       <UniqueIdentifier>{74447a9c-98d3-425b-9618-5d70be262b38}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\结构型模式\Flyweight">
+      <UniqueIdentifier>{053f97b2-65e7-4311-8b73-f882fa00ea58}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -86,6 +89,9 @@
     </ClInclude>
     <ClInclude Include="Composite.h">
       <Filter>头文件\结构型模式\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyweight.h">
+      <Filter>头文件\创建型模式</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

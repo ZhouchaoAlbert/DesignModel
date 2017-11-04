@@ -12,7 +12,7 @@
 #include "Adaptor.h"
 #include "Decorator.h"
 #include "Composite.h"
-
+#include "Flyweight.h"
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//´´½¨ÐÍ
@@ -27,6 +27,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	AdaptorTest(); 
 	DecoratorTest();
 	CompositeTest();
+	FlyWeightTest();
 	system("pause");
 	return 0;
 }
