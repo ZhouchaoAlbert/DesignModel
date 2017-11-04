@@ -83,6 +83,7 @@
     <ClInclude Include="Adaptor.h" />
     <ClInclude Include="Bridge.h" />
     <ClInclude Include="Builder.h" />
+    <ClInclude Include="Composite.h" />
     <ClInclude Include="Decorator.h" />
     <ClInclude Include="Factory1.h" />
     <ClInclude Include="Factory2.h" />

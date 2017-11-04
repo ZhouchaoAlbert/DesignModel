@@ -43,6 +43,9 @@
     <Filter Include="头文件\结构型模式\Decorator">
       <UniqueIdentifier>{c8a74ab1-0e54-4bdc-aab6-1acf9508d5ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\结构型模式\Composite">
+      <UniqueIdentifier>{74447a9c-98d3-425b-9618-5d70be262b38}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -80,6 +83,9 @@
     </ClInclude>
     <ClInclude Include="Decorator.h">
       <Filter>头文件\结构型模式\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite.h">
+      <Filter>头文件\结构型模式\Composite</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

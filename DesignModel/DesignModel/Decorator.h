@@ -16,8 +16,8 @@ class IStream
 {
 public:
 	virtual std::string Read(int num) = 0;     //读操作
-	virtual void Write(char data)     = 0;  //写操作
-	virtual void Seek(int pos)        = 0;  //定位操作
+	virtual void Write(char data)     = 0;     //写操作
+	virtual void Seek(int pos)        = 0;     //定位操作
 };
 
 //主体类 (文件流\网络流\内存流)
@@ -110,7 +110,6 @@ public:
 	{
 
 	}
-
 	virtual std::string Read(int num)
 	{
 		//这里可以进行加密操作
@@ -132,7 +131,7 @@ public:
 	}
 };
 
-//加密处理
+//缓冲处理
 class CBufferedStream : public CDecoratorStream
 {
 public:
@@ -140,7 +139,6 @@ public:
 	{
 
 	}
-
 	virtual std::string Read(int num)
 	{
 		//这里可以进行缓冲操作

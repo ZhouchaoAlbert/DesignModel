@@ -11,6 +11,7 @@
 #include "Bridge.h"
 #include "Adaptor.h"
 #include "Decorator.h"
+#include "Composite.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -25,6 +26,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	BridgeTest();
 	AdaptorTest(); 
 	DecoratorTest();
+	CompositeTest();
 	system("pause");
 	return 0;
 }
