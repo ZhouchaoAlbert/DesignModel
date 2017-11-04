@@ -40,6 +40,9 @@
     <Filter Include="头文件\结构型模式\Adaptor">
       <UniqueIdentifier>{ab66bc2d-4a9c-4edb-9f93-db44800ba424}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\结构型模式\Decorator">
+      <UniqueIdentifier>{c8a74ab1-0e54-4bdc-aab6-1acf9508d5ee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -74,6 +77,9 @@
     </ClInclude>
     <ClInclude Include="Adaptor.h">
       <Filter>头文件\结构型模式\Adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator.h">
+      <Filter>头文件\结构型模式\Decorator</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

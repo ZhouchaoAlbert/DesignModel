@@ -10,6 +10,8 @@
 #include "Prototype.h"
 #include "Bridge.h"
 #include "Adaptor.h"
+#include "Decorator.h"
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//创建型
@@ -21,7 +23,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	PrototypeTest();
 	//结构型
 	BridgeTest();
-	AdaptorTest();
+	AdaptorTest(); 
+	DecoratorTest();
 	system("pause");
 	return 0;
 }

@@ -67,7 +67,6 @@ public:
 
 
 //适配器 对象模式
-
 class CSocketAdapterObj : ISocketTarget
 {
 public:
