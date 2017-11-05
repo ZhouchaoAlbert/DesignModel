@@ -14,6 +14,7 @@
 #include "Composite.h"
 #include "Flyweight.h"
 #include "Facade.h"
+#include "Proxy.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -31,6 +32,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	CompositeTest();
 	FlyWeightTest();
 	FacadeTest();
+	ProxyTest();
 	system("pause");
 	return 0;
 }

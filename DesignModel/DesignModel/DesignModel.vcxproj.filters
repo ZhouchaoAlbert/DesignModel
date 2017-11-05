@@ -52,6 +52,9 @@
     <Filter Include="头文件\结构型模式\Facade">
       <UniqueIdentifier>{3db0bff2-9d27-4b01-81fe-94d315de6e3a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\结构型模式\Proxy">
+      <UniqueIdentifier>{c454e41f-b8c7-45bd-82e4-d1053b844083}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -98,6 +101,9 @@
     </ClInclude>
     <ClInclude Include="Facade.h">
       <Filter>头文件\结构型模式\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy.h">
+      <Filter>头文件\结构型模式\Proxy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
