@@ -13,6 +13,8 @@
 #include "Decorator.h"
 #include "Composite.h"
 #include "Flyweight.h"
+#include "Facade.h"
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//´´½¨ÐÍ
@@ -28,6 +30,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	DecoratorTest();
 	CompositeTest();
 	FlyWeightTest();
+	FacadeTest();
 	system("pause");
 	return 0;
 }
