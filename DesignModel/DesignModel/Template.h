@@ -9,8 +9,7 @@ Template 模式:
 Template模式是采用继承的方式实现这一点：将逻辑（算法）框架放在抽象基类中，并定义好细节的接口，子类中实现细节。
 */
 
-// 追MM模版
-
+// 追MM基类模版
 class CCatchMMTemplate
 {
 public:
@@ -67,7 +66,6 @@ public:
 		return true;
 	}
 };
-
 //小猪
 class CPig : public CCatchMMTemplate
 {

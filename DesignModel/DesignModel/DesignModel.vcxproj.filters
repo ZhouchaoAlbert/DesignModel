@@ -58,6 +58,12 @@
     <Filter Include="头文件\行为模式">
       <UniqueIdentifier>{24f19a5a-8798-4db3-ad06-bba391d05910}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\行为模式\Template">
+      <UniqueIdentifier>{9aab7214-662e-4e42-aa2f-6f5cabf6728d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\行为模式\Strategy">
+      <UniqueIdentifier>{c94e903f-a2fd-4e27-9d57-6a4dc79de7be}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -109,7 +115,10 @@
       <Filter>头文件\结构型模式\Proxy</Filter>
     </ClInclude>
     <ClInclude Include="Template.h">
-      <Filter>头文件\行为模式</Filter>
+      <Filter>头文件\行为模式\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy.h">
+      <Filter>头文件\行为模式\Strategy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

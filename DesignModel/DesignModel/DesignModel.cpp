@@ -16,7 +16,7 @@
 #include "Facade.h"
 #include "Proxy.h"
 #include "Template.h"
-
+#include "Strategy.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -37,7 +37,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	ProxyTest();
 	//行为模式
 	TemplateTest();
-
+	StrategyTest();
 
 	system("pause");
 	return 0;
