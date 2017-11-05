@@ -15,6 +15,8 @@
 #include "Flyweight.h"
 #include "Facade.h"
 #include "Proxy.h"
+#include "Template.h"
+
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -33,6 +35,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	FlyWeightTest();
 	FacadeTest();
 	ProxyTest();
+	//行为模式
+	TemplateTest();
+
+
 	system("pause");
 	return 0;
 }
