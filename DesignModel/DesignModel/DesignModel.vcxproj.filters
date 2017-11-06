@@ -64,6 +64,9 @@
     <Filter Include="头文件\行为模式\Strategy">
       <UniqueIdentifier>{c94e903f-a2fd-4e27-9d57-6a4dc79de7be}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\行为模式\State">
+      <UniqueIdentifier>{16947a54-a3e6-4741-9f67-1dbcf2adeeb6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -119,6 +122,9 @@
     </ClInclude>
     <ClInclude Include="Strategy.h">
       <Filter>头文件\行为模式\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>头文件\行为模式\State</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
