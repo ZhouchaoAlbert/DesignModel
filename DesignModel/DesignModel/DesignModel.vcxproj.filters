@@ -67,6 +67,9 @@
     <Filter Include="头文件\行为模式\State">
       <UniqueIdentifier>{16947a54-a3e6-4741-9f67-1dbcf2adeeb6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\行为模式\observer">
+      <UniqueIdentifier>{72da93c2-c0be-42fe-89a6-a0f0e598b1df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -126,6 +129,12 @@
     <ClInclude Include="State.h">
       <Filter>头文件\行为模式\State</Filter>
     </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>头文件\行为模式\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverSub.h">
+      <Filter>头文件\行为模式\observer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -133,6 +142,12 @@
     </ClCompile>
     <ClCompile Include="DesignModel.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>头文件\行为模式\observer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObserverSub.cpp">
+      <Filter>头文件\行为模式\observer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

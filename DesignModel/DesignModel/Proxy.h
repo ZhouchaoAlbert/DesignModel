@@ -48,7 +48,6 @@ public:
 	}
 private:
 	CSubject* m_pSub;
-
 };
 
 

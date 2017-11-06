@@ -89,6 +89,8 @@
     <ClInclude Include="Factory1.h" />
     <ClInclude Include="Factory2.h" />
     <ClInclude Include="Flyweight.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="ObserverSub.h" />
     <ClInclude Include="Prototype.h" />
     <ClInclude Include="Proxy.h" />
     <ClInclude Include="Singleton.h" />
@@ -100,6 +102,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DesignModel.cpp" />
+    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="ObserverSub.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

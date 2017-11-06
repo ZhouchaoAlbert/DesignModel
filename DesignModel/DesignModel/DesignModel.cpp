@@ -18,6 +18,18 @@
 #include "Template.h"
 #include "Strategy.h"
 #include "State.h"
+#include "Observer.h"
+
+void ObserverTest()
+{
+	CSubject2* pSubject = new CConcreteSubject();
+	CObserver2* pObv1 = new CConcreteObserverA(pSubject);
+	CObserver2* pObv2 = new CConcreteObserverB(pSubject);
+	pSubject->SetState("old state");
+	pSubject->Notify();
+	pSubject->SetState("new state");
+	pSubject->Notify();
+}
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -40,6 +52,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	TemplateTest();
 	StrategyTest();
 	StateTest();
+	ObserverTest();
 	system("pause");
 	return 0;
 }
