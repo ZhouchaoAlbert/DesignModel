@@ -19,6 +19,7 @@
 #include "Strategy.h"
 #include "State.h"
 #include "Observer.h"
+#include "Memento.h"
 
 void ObserverTest()
 {
@@ -53,6 +54,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	StrategyTest();
 	StateTest();
 	ObserverTest();
+	MementoTest();
 	system("pause");
 	return 0;
 }

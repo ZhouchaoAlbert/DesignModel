@@ -89,6 +89,7 @@
     <ClInclude Include="Factory1.h" />
     <ClInclude Include="Factory2.h" />
     <ClInclude Include="Flyweight.h" />
+    <ClInclude Include="Memento.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="ObserverSub.h" />
     <ClInclude Include="Prototype.h" />

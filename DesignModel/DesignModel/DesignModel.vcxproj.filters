@@ -70,6 +70,9 @@
     <Filter Include="头文件\行为模式\observer">
       <UniqueIdentifier>{72da93c2-c0be-42fe-89a6-a0f0e598b1df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\行为模式\Memento">
+      <UniqueIdentifier>{b96aa7c2-a6d4-414a-a599-ae09d9d60e52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -134,6 +137,9 @@
     </ClInclude>
     <ClInclude Include="ObserverSub.h">
       <Filter>头文件\行为模式\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento.h">
+      <Filter>头文件\行为模式\Memento</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
