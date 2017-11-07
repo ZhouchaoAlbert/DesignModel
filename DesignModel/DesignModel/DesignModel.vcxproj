@@ -83,12 +83,14 @@
     <ClInclude Include="Adaptor.h" />
     <ClInclude Include="Bridge.h" />
     <ClInclude Include="Builder.h" />
+    <ClInclude Include="Colleage.h" />
     <ClInclude Include="Composite.h" />
     <ClInclude Include="Decorator.h" />
     <ClInclude Include="Facade.h" />
     <ClInclude Include="Factory1.h" />
     <ClInclude Include="Factory2.h" />
     <ClInclude Include="Flyweight.h" />
+    <ClInclude Include="Mediator.h" />
     <ClInclude Include="Memento.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="ObserverSub.h" />
@@ -102,7 +104,9 @@
     <ClInclude Include="Template.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Colleage.cpp" />
     <ClCompile Include="DesignModel.cpp" />
+    <ClCompile Include="Mediator.cpp" />
     <ClCompile Include="Observer.cpp" />
     <ClCompile Include="ObserverSub.cpp" />
     <ClCompile Include="stdafx.cpp">

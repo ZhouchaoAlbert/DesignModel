@@ -73,6 +73,9 @@
     <Filter Include="头文件\行为模式\Memento">
       <UniqueIdentifier>{b96aa7c2-a6d4-414a-a599-ae09d9d60e52}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\行为模式\Mediator">
+      <UniqueIdentifier>{84308725-0600-4ff7-8ca4-873e274b8dd7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -141,6 +144,12 @@
     <ClInclude Include="Memento.h">
       <Filter>头文件\行为模式\Memento</Filter>
     </ClInclude>
+    <ClInclude Include="Mediator.h">
+      <Filter>头文件\行为模式\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Colleage.h">
+      <Filter>头文件\行为模式\Mediator</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -154,6 +163,12 @@
     </ClCompile>
     <ClCompile Include="ObserverSub.cpp">
       <Filter>头文件\行为模式\observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediator.cpp">
+      <Filter>头文件\行为模式\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="Colleage.cpp">
+      <Filter>头文件\行为模式\Mediator</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

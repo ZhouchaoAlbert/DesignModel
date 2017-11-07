@@ -20,6 +20,8 @@
 #include "State.h"
 #include "Observer.h"
 #include "Memento.h"
+#include "Mediator.h"
+#include "Colleage.h"
 
 void ObserverTest()
 {
@@ -30,6 +32,28 @@ void ObserverTest()
 	pSubject->Notify();
 	pSubject->SetState("new state");
 	pSubject->Notify();
+}
+
+void  MediatorTest()
+{
+	CConcreteMediator* m = new	CConcreteMediator();
+	CConcreteColleageA* c1 = new CConcreteColleageA(m);
+	CConcreteColleageB* c2 = new CConcreteColleageB(m);
+	m->IntroColleage(c1, c2);
+	c1->SetState("old");
+	c2->SetState("old");
+	c1->Aciton();
+	c2->Aciton();
+	cout << endl;
+
+	c1->SetState("new");
+	c1->Aciton();
+	c2->Aciton();
+
+	cout << endl;
+	c2->SetState("old");
+	c2->Aciton();
+	c1->Aciton();
 }
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -55,6 +79,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	StateTest();
 	ObserverTest();
 	MementoTest();
+	MediatorTest();
 	system("pause");
 	return 0;
 }
