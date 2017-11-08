@@ -21,7 +21,6 @@ public:
 	CMediator* m_pMdt;
 };
 
-
 class CConcreteColleageA :public CColleage
 {
 public:

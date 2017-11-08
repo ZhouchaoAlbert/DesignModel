@@ -76,6 +76,9 @@
     <Filter Include="头文件\行为模式\Mediator">
       <UniqueIdentifier>{84308725-0600-4ff7-8ca4-873e274b8dd7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\行为模式\Command">
+      <UniqueIdentifier>{4a51b32f-7c56-491c-85b4-5f8eda53d771}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -149,6 +152,9 @@
     </ClInclude>
     <ClInclude Include="Colleage.h">
       <Filter>头文件\行为模式\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>头文件\行为模式\Command</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

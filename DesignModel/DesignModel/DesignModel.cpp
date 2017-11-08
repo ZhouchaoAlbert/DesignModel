@@ -22,6 +22,7 @@
 #include "Memento.h"
 #include "Mediator.h"
 #include "Colleage.h"
+#include "Command.h"
 
 void ObserverTest()
 {
@@ -80,6 +81,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	ObserverTest();
 	MementoTest();
 	MediatorTest();
+	CommandTest();
 	system("pause");
 	return 0;
 }
