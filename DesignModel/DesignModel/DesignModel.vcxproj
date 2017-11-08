@@ -103,6 +103,7 @@
     <ClInclude Include="Strategy.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Template.h" />
+    <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Colleage.cpp" />

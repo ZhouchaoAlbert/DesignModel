@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-//(Command类)
+//抽象命令类
 class CCommand
 {
 public:
@@ -12,7 +12,7 @@ public:
 	virtual void Execute() = 0;
 };
 
-// Receiver接受者
+// 接受者
 class CReceiver
 {
 public:
@@ -31,7 +31,7 @@ private:
 	std::string m_strName;
 };
 
-// 具体的CommandA
+// 具体抽象命令类A
 class CConcreteCommandA : public CCommand
 {
 public:
@@ -50,7 +50,7 @@ private:
 	CReceiver *m_pReicver;
 };
 
-// 具体的CommandB
+// 具体抽象命令类B
 class CConcreteCommandB : public CCommand
 {
 public:

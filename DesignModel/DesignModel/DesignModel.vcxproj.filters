@@ -79,6 +79,9 @@
     <Filter Include="头文件\行为模式\Command">
       <UniqueIdentifier>{4a51b32f-7c56-491c-85b4-5f8eda53d771}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\行为模式\Visitor">
+      <UniqueIdentifier>{82e14f89-3cf1-4f7b-8ebe-fd4f84590bbf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -155,6 +158,9 @@
     </ClInclude>
     <ClInclude Include="Command.h">
       <Filter>头文件\行为模式\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor.h">
+      <Filter>头文件\行为模式\Visitor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
