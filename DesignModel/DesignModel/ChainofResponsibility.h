@@ -8,7 +8,6 @@
 class CHandler
 {
 public:
-
 	// 构造函数指定后继者
 	CHandler(CHandler *p) : m_pHandler(p) { }
 	virtual ~CHandler()	{}
@@ -21,7 +20,6 @@ public:
 		}
 		else
 		{
-			// 没有后继者了，必须想个办法来解决
 			std::cout << "在去找一个吧,这个男孩子不行" << std::endl;
 		}
 	}
@@ -35,7 +33,8 @@ public:
 	CHandler*   m_pHandler;
 	std::string m_strName;
 };
-//问母亲
+
+//母亲
 class CMom : public CHandler
 {
 public:
@@ -87,7 +86,6 @@ public:
 
 void ResponsibilityTest()
 {
-
 	CFather father(NULL);	//串起一条职责链
 	CMom mon(&father);
 	mon.HandleRequest();

@@ -25,7 +25,8 @@
 #include "Command.h"
 #include "Visitor.h"
 #include "ChainofResponsibility.h"
-
+#include "Iterator.h"
+#include "Aggregate.h"
 void ObserverTest()
 {
 	CSubject2* pSubject = new CConcreteSubject();
@@ -59,6 +60,22 @@ void  MediatorTest()
 	c1->Aciton();
 }
 
+
+void IteratorTest()
+{
+	Aggregate* ag = new CConcreteAggregate();
+	ag->Insert(1111);
+	ag->Insert(2222);
+	ag->Insert(3333);
+	ag->Insert(4444);
+	Iterator* it = new CConcreteIterator(ag);
+	for (; !(it->IsDone()); it->Next())
+	{
+		cout << it->CurrentItem() << endl;
+	}
+
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//´´½¨ÐÍ
@@ -86,6 +103,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	CommandTest();
 	VisitorTest();
 	ResponsibilityTest();
+	IteratorTest();
 	system("pause");
 	return 0;
 }

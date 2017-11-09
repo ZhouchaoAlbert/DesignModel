@@ -85,6 +85,9 @@
     <Filter Include="头文件\行为模式\Chain of Responsibility">
       <UniqueIdentifier>{90acefd9-c1cf-47e5-85c9-8cae92957061}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\行为模式\Iterator">
+      <UniqueIdentifier>{c415a088-bc5b-457a-9a7a-6c8a0c718bf3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -168,6 +171,12 @@
     <ClInclude Include="ChainofResponsibility.h">
       <Filter>头文件\行为模式\Chain of Responsibility</Filter>
     </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>头文件\行为模式\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Aggregate.h">
+      <Filter>头文件\行为模式\Iterator</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -187,6 +196,12 @@
     </ClCompile>
     <ClCompile Include="Colleage.cpp">
       <Filter>头文件\行为模式\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="Aggregate.cpp">
+      <Filter>头文件\行为模式\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterator.cpp">
+      <Filter>头文件\行为模式\Iterator</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClInclude Include="AbstractFactory.h" />
     <ClInclude Include="Adaptor.h" />
+    <ClInclude Include="Aggregate.h" />
     <ClInclude Include="Bridge.h" />
     <ClInclude Include="Builder.h" />
     <ClInclude Include="ChainofResponsibility.h" />
@@ -92,6 +93,7 @@
     <ClInclude Include="Factory1.h" />
     <ClInclude Include="Factory2.h" />
     <ClInclude Include="Flyweight.h" />
+    <ClInclude Include="Iterator.h" />
     <ClInclude Include="Mediator.h" />
     <ClInclude Include="Memento.h" />
     <ClInclude Include="Observer.h" />
@@ -107,8 +109,10 @@
     <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Aggregate.cpp" />
     <ClCompile Include="Colleage.cpp" />
     <ClCompile Include="DesignModel.cpp" />
+    <ClCompile Include="Iterator.cpp" />
     <ClCompile Include="Mediator.cpp" />
     <ClCompile Include="Observer.cpp" />
     <ClCompile Include="ObserverSub.cpp" />
