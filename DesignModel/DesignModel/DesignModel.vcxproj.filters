@@ -82,6 +82,9 @@
     <Filter Include="头文件\行为模式\Visitor">
       <UniqueIdentifier>{82e14f89-3cf1-4f7b-8ebe-fd4f84590bbf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\行为模式\Chain of Responsibility">
+      <UniqueIdentifier>{90acefd9-c1cf-47e5-85c9-8cae92957061}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -161,6 +164,9 @@
     </ClInclude>
     <ClInclude Include="Visitor.h">
       <Filter>头文件\行为模式\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainofResponsibility.h">
+      <Filter>头文件\行为模式\Chain of Responsibility</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -24,6 +24,7 @@
 #include "Colleage.h"
 #include "Command.h"
 #include "Visitor.h"
+#include "ChainofResponsibility.h"
 
 void ObserverTest()
 {
@@ -84,6 +85,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	MediatorTest();
 	CommandTest();
 	VisitorTest();
+	ResponsibilityTest();
 	system("pause");
 	return 0;
 }

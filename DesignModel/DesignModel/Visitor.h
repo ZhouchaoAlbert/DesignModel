@@ -70,8 +70,8 @@ public:
 
 void VisitorTest()
 {
-	CElementA ea("元素A");
-	CElementB eb("元素B");
+	CElementA ea("小耗子");
+	CElementB eb("小猴子");
 
 	CVisitorA va;
 	CVisitorB vb;
