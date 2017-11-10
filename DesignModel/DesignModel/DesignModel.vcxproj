@@ -93,6 +93,7 @@
     <ClInclude Include="Factory1.h" />
     <ClInclude Include="Factory2.h" />
     <ClInclude Include="Flyweight.h" />
+    <ClInclude Include="Interpreter.h" />
     <ClInclude Include="Iterator.h" />
     <ClInclude Include="Mediator.h" />
     <ClInclude Include="Memento.h" />

@@ -27,6 +27,8 @@
 #include "ChainofResponsibility.h"
 #include "Iterator.h"
 #include "Aggregate.h"
+#include "Interpreter.h"
+
 void ObserverTest()
 {
 	CSubject2* pSubject = new CConcreteSubject();
@@ -104,6 +106,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	VisitorTest();
 	ResponsibilityTest();
 	IteratorTest();
+	InterpreterTest();
 	system("pause");
 	return 0;
 }

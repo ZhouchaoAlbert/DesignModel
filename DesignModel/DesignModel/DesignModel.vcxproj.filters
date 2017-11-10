@@ -88,6 +88,9 @@
     <Filter Include="头文件\行为模式\Iterator">
       <UniqueIdentifier>{c415a088-bc5b-457a-9a7a-6c8a0c718bf3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\行为模式\Interpreter">
+      <UniqueIdentifier>{a6d8c139-02a5-4f47-9900-e955dad17c37}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -176,6 +179,9 @@
     </ClInclude>
     <ClInclude Include="Aggregate.h">
       <Filter>头文件\行为模式\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter.h">
+      <Filter>头文件\行为模式\Interpreter</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
